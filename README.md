@@ -1,5 +1,5 @@
 # iRobot Create Project
-This program is a project of 2110435 INTRO TO ROBOTICS, Computer Engineering, Chulalongkorn University.
+This program is a project of 2110435 INTRO TO ROBOTICS, Computer Engineering, Chulalongkorn University.  
 The codes are writen to control the robot, iRobot Create, to do the specific objectives.
 
 ## Sub-Project List (Ongoing)
