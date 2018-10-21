@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 2.8)
+project( Autobot )
+set(OpenCV_DIR ${CMAKE_SOURCE_DIR}/lib/opencv)
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+include_directories(${CMAKE_SOURCE_DIR})
+link_directories(${CMAKE_SOURCE_DIR})
+link_directories(${CMAKE_SOURCE_DIR}/lib)
+
+add_executable( Autobot _main.cpp )
+target_link_libraries( Autobot ${OpenCV_LIBS} legacy_stdio_definitions RobotConnector)
