@@ -8,5 +8,5 @@ The codes are writen to control the robot, iRobot Create, to do the specific obj
 - Map drawing using position from set up camera via websocket (moving with kinect)
 - SLAM mapping and localizing using RPLidar sensor and moving to selected position in the map
 
-*Library files and build files are not pushed in this repository due to its size*  
+*Library files and build files are not included in this repository due to its file size*  
 *Required library : 'opencv' / 'robotconnector' for iRobot Create / 'MRPT'*
